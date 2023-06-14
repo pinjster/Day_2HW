@@ -16,7 +16,6 @@ main {
     display: flex;
     flex-direction: row-reverse;
     align-items: stretch;
-    length: 90%;
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.322) ;
     border-radius: 20px;
     background-color: white;
@@ -26,7 +25,6 @@ section {
     padding: 2% 8% 0% 10%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     text-align: left;
     color: rgb(4, 4, 99);
 }
@@ -34,10 +32,18 @@ section h1 {
     font-weight: 700;
 }
 section h3 {
+    margin: 3% auto;
     color: grey;
     font-size: 75%;
-    flex-grow: 1;
+    letter-spacing: 0.5px;
 }
-section form {
-    flex-grow: 2;
+label {
+    margin: 5% 0;
+    font-weight: 600;
+    font-size: small;
+    letter-spacing: .2px;
+}
+input {
+    margin: 4% 0 ;
+    
 }
