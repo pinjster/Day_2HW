@@ -38,7 +38,7 @@ label {
     font-size: smaller;
     margin-bottom: 12px;    
 }
-input.email {
+input {
     margin: 2px 0 13px 0;
     width: 280px;
     height: 28px;
@@ -71,6 +71,11 @@ section p {
     a:hover {
     color: rgb(220, 108, 0);
     text-decoration-line: underline;
+}
+section a {
+    display: inline-flex;
+    font-size: small;
+    margin-left: 112px;
 }
 div.dropdown {
     font-size: 75%;
