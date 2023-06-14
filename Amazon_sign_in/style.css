@@ -1,0 +1,130 @@
+:root {
+    --continue-button: rgb(252, 212, 103);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+header {
+    margin: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section.signbox {
+    width: 320px;
+    margin: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+section > h1 {
+    margin-bottom: 18px;
+    font-weight: 549;
+    letter-spacing: 0.8px;
+}
+label {
+    font-weight: 600;
+    font-size: smaller;
+    margin-bottom: 12px;    
+}
+input.email {
+    margin: 2px 0 13px 0;
+    width: 280px;
+    height: 28px;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    border-radius: 3px;
+}
+input.continue {
+    margin: 0px 0 21px 0;
+    width: 280px;
+    height: 28px;
+    background-color: var(--continue-button);
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    border-radius: 3px;
+}
+input.continue:hover {
+    background-color: rgb(221, 186, 91);
+}
+section p {
+    font-size:75%;
+    margin-bottom: 30px;
+}
+    a:link {
+    color: rgb(80, 109, 236);
+    text-decoration-line: none;
+}
+    a:visited {
+    color: rgb(80, 109, 236);
+    text-decoration-line: none;
+}
+    a:hover {
+    color: rgb(220, 108, 0);
+    text-decoration-line: underline;
+}
+div.dropdown {
+    font-size: 75%;
+    letter-spacing: 1.7;
+    position: relative;
+    display: block;
+}
+.dropdown > div {
+    display: none;
+}
+.dropdown > div:target {
+    display: block;
+    margin-left: 10px;
+}
+.signup {
+    margin: auto;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.signup p {
+    font-size: 75%;
+    color: rgba(0, 0, 0, 0.541);
+    margin-bottom: 13px;
+    text-align: center;
+}
+.signup button {
+    padding: 5px 0 ;
+    margin-bottom: 25px;
+}
+hr {
+    margin: 0 auto;
+    width: 75%;
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 30px;
+}
+footer{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 69%;
+    color: rgba(0, 0, 0, 0.541);;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+footer li {
+    margin: 0 12px;
+}
